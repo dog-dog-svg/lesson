@@ -1,0 +1,22 @@
+body{padding:50px}
+.container div {text-align: center; color:#fff;font-size: 2em;}
+.container div:nth-child(1) {background: #96ceb4;}
+.container div:nth-child(2) {background: #ff6f69;}
+.container div:nth-child(3) {background: #88d8b0;}
+.container div:nth-child(4) {background: #ffcc5c;}
+.container div:nth-child(5) {background: #96ceb4;}
+.container div:nth-child(6) {background: #ff6f69;}
+.container{
+    display:grid;
+    grid-gap:3px;
+    grid-template-columns:100px auto 100px;
+    /* 부모크기의 1/3씩 : fr 프렉션단위로 지정 그리드에서만 사용 */
+    grid-template-columns:1fr 1fr 1fr; /* 1:1:1 */
+    grid-template-columns:repeat(6,1fr);
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:50px 50px;
+    grid-template-rows:repeat(2,150px);
+
+    /* 숏핸즈 row, column*/
+    grid-template:  repeat(2,150px) / repeat(3,1fr);
+}
