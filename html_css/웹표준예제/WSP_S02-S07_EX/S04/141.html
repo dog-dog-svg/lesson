@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>filter example</title>
+<style>
+.example img:hover{
+	-webkit-filter: invert(100%) drop-shadow(10px 10px 5px rgba(0,0,0,0.8));
+	filter: invert(100%) drop-shadow(10px 10px 5px rgba(0,0,0,0.8));
+}
+</style>
+</head>
+<body>
+
+<p><img src="img/photo.png" alt="tree" title="Original photo"></p>
+
+<hr>
+
+<p class="example"><img src="img/photo.png" alt="tree"></p>
+
+</body>
+</html>

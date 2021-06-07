@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>form, select</title>
+</head>
+<body>
+
+<script type="text/javascript">
+function move(){
+	location.href = document.getElementById('goUrl').value;
+}
+</script>
+
+<fieldset>
+	<legend>패밀리 사이트</legend>
+	<p>
+		<label for="goUrl">이동 할 사이트</label>
+		<select id="goUrl">
+			<optgroup label="Potal Site">
+				<option value="http://naver.com">네이버</option>
+				<option value="http://nate.com">네이트</option>
+				<option value="http://daum.net">다음</option>
+			</optgroup>
+			<optgroup label="Shopping mall">
+				<option value="http://gmarget.co.kr">지마켓</option>
+				<option value="http://auction.co.kr">옥션</option>
+			</optgroup>
+		</select>
+		<input type="button" value="Go" onclick="move()">
+	</p>
+</fieldset>
+
+
+
+</body>
+</html>
+
+

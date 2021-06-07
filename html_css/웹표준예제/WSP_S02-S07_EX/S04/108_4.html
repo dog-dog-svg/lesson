@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>css3, gradient, radial</title>
+<style type="text/css">
+body{
+	font-family: tahoma,sans-serif;
+	font-size: 12px;
+	}
+.bg {width:200px; height: 200px; margin:20px 0px; float:left; margin:10px 10px; color:#fff; font-size:16pt; }	
+.type1{	
+	background-image: -webkit-radial-gradient(50px 50px, circle closest-side, #1a82f7, #2F2727);
+}
+.type2{	
+	background-image:  -webkit-radial-gradient(50px 50px, circle closest-corner, #1a82f7, #2F2727);
+}
+.type3{	
+	background-image:  -webkit-radial-gradient(50px 50px, circle farthest-side, #1a82f7, #2F2727);
+}
+.type4{	
+	background-image:  -webkit-radial-gradient(50px 50px, circle farthest-corner, #1a82f7, #2F2727);
+}
+pre {font-size:1.3em;}
+</style>
+</head>
+<body>
+<pre> background-image: -webkit-radial-gradient(50px 50px, circle closest-side, #1a82f7, #2F2727);</pre>
+<div class="bg type1">circle closest-side
+</div>
+
+<div class="bg type2">circle closest-corner
+</div>
+
+<div class="bg type3">circle farthest-side
+</div>
+
+<div class="bg type4">circle farthest-corner
+</div>
+
+
+</body>
+</html>

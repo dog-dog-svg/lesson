@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>css3, opacity</title>
+<style type="text/css">
+.outer { width:200px; height:100px; margin:100px; background-color:silver; position:relative; cursor:action:}
+.absolute { position:absolute; top:0; left:100%; right:-100%; background:#3498db; text-align:center;}
+span {display: inline-block; line-height: 1.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-bottom: 0.0625em }
+.outer:after { top:0; left:0; bottom:0; right:0;}
+</style>
+</head>
+<body>
+
+
+<div class="outer">
+<div class="absolute"><span>text</span></div>
+</div>
+
+</body>
+</html>

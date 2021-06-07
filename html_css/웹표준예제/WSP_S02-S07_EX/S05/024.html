@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>form, select</title>
+</head>
+<body>
+
+<form action="go.php" method="post">
+	<fieldset>
+		<legend>이메일을 작성해 주세요</legend>
+		<p>
+			<label for="userEmail">이메일</label>
+			<input type="text" id="userEmail" name="userEmail" title="이메일 ID입력">
+			@
+			<select title="이메일 서비스 선택" size="3" multiple>
+				<option value="naver.com">naver.com</option>
+				<option value="daum.net">daum.net</option>
+				<option value="gmail.com">gmail.com</option>
+				<option value="gmail.com">직접입력</option>
+			</select>
+		</p>
+	</fieldset>
+
+	<input type="submit" value="전송">
+</form>
+
+</body>
+</html>
+
+

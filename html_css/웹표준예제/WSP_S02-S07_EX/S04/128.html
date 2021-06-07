@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>transform, matrix</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+.ex1 img{
+	-webkit-transform: matrix(1.5,0,-0.2,1,30,10);
+	-moz-transform: matrix(1.5,0,-0.2,1,30,10);
+	-ms-transform: matrix(1.5,0,-0.2,1,30,10);
+	-o-transform: matrix(1.5,0,-0.2,1,30,10);
+	transform: matrix(1.5,0,-0.2,1,30,10);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+</style>
+</head>
+<body>
+
+<p class="ex1"><img src="img/photo.png" alt="tree"></p>
+
+</body>
+</html>

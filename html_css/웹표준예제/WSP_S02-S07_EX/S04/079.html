@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>table, empty-cells</title>
+<style type="text/css">
+body,h1,h2,h3{
+	font-family: tahoma,sans-serif;
+	font-size: 12px;
+}
+.empty1{
+	empty-cells: show;
+}
+.empty2{
+	empty-cells: hide;
+}
+</style>
+</head>
+<body>
+
+<table width="400" border="1">
+	<tbody>
+		<tr>
+			<td>Lorem ipsum dolor sit amet, consectetur.</td>
+			<td>Lorem ipsum dolor.</td>
+		</tr>
+		<tr>
+			<td>Lorem ipsum dolor sit amet, consectetur.</td>
+			<td class="empty1"></td>
+		</tr>
+		<tr>
+			<td>Lorem ipsum dolor sit amet, consectetur.</td>
+			<td class="empty2"></td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

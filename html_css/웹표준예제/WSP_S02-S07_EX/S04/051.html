@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>display:table</title>
+<style type="text/css">
+.table{
+	display: table;
+	border: 1px solid;
+}
+.table-row{
+	width: 400px;
+	border-bottom: 1px solid gray;
+}
+.cell_no{
+	display: table-cell;
+	width: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.cell_tle{
+	display: table-cell;
+	width: 260px;
+}
+.cell_date{
+	display: table-cell;
+	width: 100px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="table">	
+	<div class="table-row-group">
+		<div class="table-row">
+			<div class="cell_no">01</div>
+			<div class="cell_tle">Lorem ipsum dolor sit amet.</div>
+			<div class="cell_date">2013-08-10</div>
+		</div>
+		<div class="table-row">
+			<div class="cell_no">02</div>
+			<div class="cell_tle">Lorem ipsum dolor sit amet.</div>
+			<div class="cell_date">2013-08-10</div>
+		</div>		
+	</div>
+</div>
+
+</body>
+</html>

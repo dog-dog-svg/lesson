@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Attribute Selectors</title>
+<style>
+body{
+	font: 12px/1.6 Verdana,sans-serif;
+}
+span[data-title="lead"]{
+	font-weight: bold;
+	text-decoration: underline;
+}
+a[href^="mailto"]{
+	background-color: lime;
+}
+</style>
+</head>
+<body>
+
+<p><span data-title="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> Dolorem, dolorum, delectus tenetur minima esse modi provident cum iste blanditiis porro.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, molestias.</p>
+
+<hr>
+
+<p><a href="#top" title="top">top</a></p>
+<address>
+	<a href="mailto:sample@sample.com">sample@sample.com</a>
+</address>
+
+</body>
+</html>
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>transform, rotate</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+.ex1 img{
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+</style>
+</head>
+<body>
+
+<p class="ex1"><img src="img/photo.png" alt="tree"></p>
+
+</body>
+</html>

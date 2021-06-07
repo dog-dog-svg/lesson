@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>form, datalist</title>
+</head>
+<body>
+
+<form action="#" method="get">
+	<fieldset>
+		<legend>Contact Us</legend>
+		
+		<label for="selMail">전송할 이메일 선택하기</label>
+		<input type="email" id="selMail" name="selName" value="" list="items">
+		<datalist id="items">
+			<option value="add@sample.com" label="추가요청">add@sample.com</option>
+			<option value="adjust@sample.com" label="수정요청">adjust@sample.com</option>
+			<option value="help@sample.com" label="도움말">help@sample.com</option>
+			<option value="webmaster@sample.com" label="관리자">webmaster@sample.com</option>
+		</datalist>
+	</fieldset>
+	<button type="submit">전송</button>
+</form>
+
+</body>
+</html>
+
+

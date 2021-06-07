@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>table, border-collapse</title>
+<style type="text/css">
+body,h1,h2,h3{
+	font-family: tahoma,sans-serif;
+	font-size: 12px;
+}
+.separate{
+	border-collapse: separate;
+}
+.collapse{
+	border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h1>separate 결과</h1>
+<table width="400" border="1" class="separate">
+	<tbody>
+		<tr>
+			<td>Lorem ipsum dolor sit amet.</td>
+			<td>Lorem ipsum.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>collapse 결과</h1>
+<table width="400" border="1" class="collapse">
+	<tbody>
+		<tr>
+			<td>Lorem ipsum dolor sit amet.</td>
+			<td>Lorem ipsum.</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

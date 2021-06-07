@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>form, input</title>
+</head>
+<body>
+
+<form action="go.php" method="post">
+	<fieldset>
+	<legend>메일링 수신여부</legend>
+		<p>
+			<span>관련 이메일을 받아보시겠습니까?</span><br>
+
+			<label>
+				예
+				<input type="radio" name="mailing" value="yes" checked> 
+			</label>
+			<label>
+				아니오
+				<input type="radio" name="mailing" value="no"> 
+			</label>
+		</p>
+	</fieldset>
+
+	<input type="submit" value="Go">
+</form>
+
+</body>
+</html>
+
+

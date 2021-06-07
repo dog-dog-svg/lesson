@@ -1,0 +1,21 @@
+body{padding:50px}
+.container div {text-align: center; color:#fff;font-size: 2em;}
+.container div:nth-child(1) {background: #96ceb4;}
+.container div:nth-child(2) {background: #ff6f69;}
+.container div:nth-child(3) {background: #88d8b0;}
+.container div:nth-child(4) {background: #ffcc5c;}
+.container div:nth-child(5) {background: #96ceb4;}
+.container div:nth-child(6) {background: #ff6f69;}
+.container{
+    display:grid;
+    /* 열지정 : 1열 100px 2열 자동 3열 100px */
+    grid-template-columns: 100px auto 100px;
+    /* 행지정 : 1행 50px 2행 50px */
+    grid-template-rows: 50px 50px;
+    /* 간격은 그리드컬럼 사이의 중앙선 기준으로 반반씩 차지함 */
+    grid-gap:20px;
+    
+    /* re */
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px 100px 200px;
+}

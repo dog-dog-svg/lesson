@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>transform, scale</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+.ex1{
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+	-webkit-perspective-origin: 0 0;
+	-moz-perspective-origin: 0 0;
+	-ms-perspective-origin: 0 0;
+	-o-perspective-origin: 0 0;
+	perspective-origin: 0 0;
+}
+.ex1 img{
+	-webkit-transform: scaleZ(3) translateZ(100px);
+	-moz-transform: scaleZ(3) translateZ(100px);
+	-ms-transform: scaleZ(3) translateZ(100px);
+	-o-transform: scaleZ(3) translateZ(100px);
+	transform: scaleZ(3) translateZ(100px);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+</style>
+</head>
+<body>
+
+<p class="ex1"><img src="img/photo.png" alt="tree"></p>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+기본구문: linear-gradient(  [ <angle> | to <side-or-corner> ,]? <color-stop> [, <color-stop>]+ )
+                                  \---------------------------------/ \----------------------------/
+                                    그레디언트 라인을 정의         색상점(color stop point)을 정의  
+
+                      where <side-or-corner> = [left | right] || [top | bottom]
+                        and <color-stop>     = <color> [ <percentage> | <length> ]?
+linear-gradient( 45deg, blue, red );           /* 45도 기울기, blue로 시작해서 red로 종료되는 그레디언트 */
+linear-gradient( to left top, blue, red);      /* bottom, right에서 시작해서 top, left에서 종료, blue로 시작해서 red로 종료되는 그레디언트 */
+
+linear-gradient( 0deg, blue, green 40%, red ); /* bottom에서 시작해서 top에서 종료(수직 그레디언트), blue에서 시작해서 green으로 40%지점에서 전환된 후, red로 종료되는 그레디언트 */

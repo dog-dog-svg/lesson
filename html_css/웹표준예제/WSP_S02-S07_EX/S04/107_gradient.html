@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>css3, gradient</title>
+<style type="text/css">
+body{
+	font-family: tahoma,sans-serif;
+	font-size: 12px;
+}
+.bg{
+	height: 200px;
+	background: #ff0000; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ff0000 0%, #ffff00 50%, #00ff00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff0000), color-stop(50%,#ffff00), color-stop(100%,#00ff00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ff0000 0%,#ffff00 50%,#00ff00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ff0000 0%,#ffff00 50%,#00ff00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ff0000 0%,#ffff00 50%,#00ff00 100%); /* IE10+ */
+	background: linear-gradient(to right,  #ff0000 0%,#ffff00 50%,#00ff00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#00ff00',GradientType=1 ); /* IE6-9 */
+}
+</style>
+</head>
+<body>
+
+<div class="bg">
+Linear Gradient
+</div>
+
+</body>
+</html>

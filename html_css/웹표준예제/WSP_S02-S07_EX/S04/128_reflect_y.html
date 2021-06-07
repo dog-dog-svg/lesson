@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>transform, matrix</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+.reflecty{
+	-webkit-transform: matrix(-1,0,0,1,0,0);
+	-moz-transform: matrix(-1,0,0,1,0,0);
+	-ms-transform: matrix(-1,0,0,1,0,0);
+	-o-transform: matrix(-1,0,0,1,0,0);
+	transform: matrix(-1,0,0,1,0,0);
+}
+
+.reflectx{
+	-webkit-transform: matrix(1,0,0,-1,0,0);
+	-moz-transform: matrix(1,0,0,-1,0,0);
+	-ms-transform: matrix(1,0,0,-1,0,0);
+	-o-transform: matrix(1,0,0,-1,0,0);
+	transform: matrix(1,0,0,-1,0,0);
+}
+
+</style>
+</head>
+<body>
+<h1>reflect y </h1>
+<p><img src="img/photo.png" alt="tree"><img src="img/photo.png" class="reflecty" alt="tree"></p>
+<h1>reflect x </h1>
+<p><img src="img/photo.png" alt="tree"></p>
+<p><img src="img/photo.png" class="reflectx" alt="tree"></p>
+</body>
+</html>

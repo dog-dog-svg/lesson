@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>blur</title>
+<style>
+
+.blur img {transition: all 1s ease-in-out;
+			cursor:pointer;}
+
+.blur img:hover{
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+</style>
+</head>
+<body>
+
+<p><img src="img/photo.png" alt="tree" title="Original photo"></p>
+
+<hr>
+
+<p class="blur"><img src="img/photo.png" alt="tree"></p>
+
+</body>
+</html>

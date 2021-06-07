@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>css3, gradient, radial</title>
+<style type="text/css">
+body{
+	font-family: tahoma,sans-serif;
+	font-size: 12px;
+	}
+.bg {height: 200px; margin:20px 0px;}	
+.type1{	
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);
+}
+.type2{	
+	background-image: radial-gradient(ellipse farthest-corner at 470px 47px , #FFFF80 20%, rgba(204, 153, 153, 0.4) 30%, #E6E6FF 60%);
+}
+.type3{	
+	background-image: radial-gradient(farthest-corner at 45px 45px , #FF0000 0%, #0000FF 100%);
+}
+pre {font-size:1.3em;}
+</style>
+</head>
+<body>
+<pre> background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);</pre>
+<div class="bg type1">
+</div>
+<pre> background-image: radial-gradient(ellipse farthest-corner at 470px 47px , #FFFF80 20%, rgba(204, 153, 153, 0.4) 30%, #E6E6FF 60%);</pre>
+<div class="bg type2">
+</div>
+<pre> background-image: radial-gradient(farthest-corner at 45px 45px , #FF0000 0%, #0000FF 100%);</pre>
+<div class="bg type3">
+</div>
+
+
+</body>
+</html>

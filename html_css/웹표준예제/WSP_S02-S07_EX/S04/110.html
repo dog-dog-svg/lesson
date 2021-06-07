@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>css3, transition</title>
+<style type="text/css">
+body{
+	font-family: tahoma,sans-serif;
+	font-size: 12px;
+}
+.photo img{
+	position: relative;
+	left: 0;
+	width: 100px;
+	opacity: 0.1;
+
+	-webkit-transition: width 3s, left 1s, opacity 2s;
+	-moz-transition: width 3s, left 1s, opacity 2s;
+	-ms-transition: width 3s, left 1s, opacity 2s;
+	-o-transition: width 3s, left 1s, opacity 2s;
+	transition: width 3s, left 1s, opacity 2s;
+}
+.photo img:hover{
+	position: relative;
+	left: 30px;
+	width: 300px;
+	opacity: 1.0;
+}
+</style>
+</head>
+<body>
+
+<div class="photo">
+	<img src="img/tree.png" alt="tree">
+</div>
+
+</body>
+</html>

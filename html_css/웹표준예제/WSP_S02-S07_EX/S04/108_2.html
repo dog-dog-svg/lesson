@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>css3, gradient, radial</title>
+<style type="text/css">
+body{
+	font-family: tahoma,sans-serif;
+	font-size: 12px;
+}
+.bg{
+	height: 200px;
+
+	background: radial-gradient(ellipse at center,  #ff0000 0%,#ffff00 50%,#00ff00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#00ff00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+</style>
+</head>
+<body>
+
+<div class="bg">
+
+</div>
+
+</body>
+</html>
