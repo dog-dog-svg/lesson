@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		table,td{border:1px solid;border-collapse:collapse; color:#666; margin:auto;}
+		td{padding:20px 10px;}
+		td:first-child{background:#eeeeee; color:#000;}
+	</style>
+</head>
+<body>
+<p>undefine 자료형이 어떨때 나오는지 확인해보자</p>
+	<table>
+		<tr>
+			<td>1. 상수와 변수로 선언하지 않은 식별자</td>
+			<td>>typeof(abc) <br/> >>undefined</td>
+			<td>>typeof(def) <br/> >>undefined</td>
+			<td>식별자를선언하지 않은 abc,def 는 undefined 자료형으로 확인</td>
+		</tr>
+		<tr>
+			<td>2. 값이 없는 변수</td>
+			<td>>let a <br/> >> undefined</td>
+			<td>>typeof(a) <br/> >>undefined</td>
+			<td>상수는 값이 있어야 하므로 상수형은 존재하지 않음</td>
+		</tr>
+	</table>
+</body>
+</html>

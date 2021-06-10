@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>숫자 연산자를 사용해 자료형 변환하기</title>
+    <!-- number() 함수를 사용하지 않고 숫자 연산자를 사용하여 다른 자료형을 숫자로 변환할수있다. -,*,/
+        숫자가 아닌 자료에서 0을 빼거나 1을 곱하거나 또는 1로 나누면 숫자 자료형으로 변환됨    
+    -->
+    <script>
+      
+        const m="52"-0
+        document.write(m,'<br>',typeof(m),'<br>')
+        const a=true;
+        document.write(typeof(a),'<br>')
+        const n=true-0;
+        document.write(typeof(n),'<br>')
+        //불과 숫자를 + 연산자로 연결하면 불이 숫자로 변한뒤 더해짐
+        const g=1+true
+        document.write(g,'<br>')
+        const o=1+false
+        document.write(o)
+    </script>
+  </head> 
+  <body>  
+  </body>
+</html>

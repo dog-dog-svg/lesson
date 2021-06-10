@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>불 자료형으로 변환하기</title>
+    <!-- 
+        다른 자료형을 문자열 자료형으로 변호나할때는 Boolean()함수를 사용
+        Boolean(자료)
+
+        대부분의 자료는 불로 변환했을때  true로 변환됨
+        예외 0,NaN,'공백',"공백",null,undefined 는 false로 변환
+    -->
+    <script>
+        const m=550
+        document.write(m,'<br>')
+        document.write(typeof(Boolean(m)),'<br>')//숫자자료형이 문자로 변경
+        const a=true
+        document.write(typeof(a),'<br>')
+        document.write(typeof(Boolean(a)),'<br>','<br>','<br>')//불자료형이 문자로 변경
+    </script>
+    <!-- 문자열 연산자를 사용하여 자료형 변환 -->
+    <script>
+        const n=273
+        document.write(typeof(n),'<br>')
+        document.write(typeof(n+''),'<br>')
+        const g=false
+        document.write(typeof(g),'<br>')
+        document.write(typeof(g+''),'<br>')
+    </script>
+  </head> 
+  <body>  
+  </body>
+</html>

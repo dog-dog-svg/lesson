@@ -1,0 +1,93 @@
+﻿@font-face {
+  font-family:'Nanum Gothic';
+  font-style:normal;
+  font-weight:400;
+  src:url(font/NanumGothic-Regular-2.eot);
+  src:url(font/NanumGothic-Regular-3.eot) format('embedded-opentype'),
+       url(font/NanumGothic-Regular-1.woff2) format('woff2'),
+       url(font/NanumGothic-Regular-1.woff) format('woff'),
+       url(font/NanumGothic-Regular-1.ttf) format('truetype');
+}
+@font-face {
+  font-family:'Nanum Gothic';
+  font-style:normal;
+  font-weight:700;
+  src:url(font/NanumGothic-Bold-2.eot);
+  src:url(font/NanumGothic-Bold-3.eot) format('embedded-opentype'),
+       url(font/NanumGothic-Bold-1.woff2) format('woff2'),
+       url(font/NanumGothic-Bold-1.woff) format('woff'),
+       url(font/NanumGothic-Bold-1.ttf) format('truetype');
+}
+@font-face {
+  font-family:'Nanum Gothic';
+  font-style:normal;
+  font-weight:800;
+  src:url(font/NanumGothic-ExtraBold-2.eot);
+  src:url(font/NanumGothic-ExtraBold-3.eot) format('embedded-opentype'),
+       url(font/NanumGothic-ExtraBold-1.woff2) format('woff2'),
+       url(font/NanumGothic-ExtraBold-1.woff) format('woff'),
+       url(font/NanumGothic-ExtraBold-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'notokr';
+ font-weight:300;
+ src:url(font/notokr-light-2.eot);
+ src:url(font/notokr-light-3.eot) format('embedded-opentype'),
+      url(font/notokr-light-1.woff) format('woff'),
+	  url(font/notokr-light-1.woff2) format('woff2'),
+      url(font/notokr-light-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'notokr';
+ font-style:normal;
+ font-weight:400;
+ src:url(font/notokr-regular-2.eot);
+ src:url(font/notokr-regular-3.eot) format('embedded-opentype'),
+      url(font/notokr-regular-1.woff) format('woff'),
+	  url(font/notokr-regular-1.woff2) format('woff2'),
+      url(font/notokr-regular-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'notokr';
+ font-style:bold;
+ font-weight:700;
+ src:url(font/notokr-medium-2.eot);
+ src:url(font/notokr-medium-3.eot) format('embedded-opentype'),
+      url(font/notokr-medium-1.woff) format('woff'),
+	  url(font/notokr-medium-1.woff2) format('woff2'),
+      url(font/notokr-medium-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'notokr';
+ font-style:bold;
+ font-weight:800;
+ src:url(font/notokr-bold-2.eot);
+ src:url(font/notokr-bold-3.eot) format('embedded-opentype'),
+      url(font/notokr-bold-1.woff) format('woff'),
+	  url(font/notokr-bold-1.woff2) format('woff2'),
+      url(font/notokr-bold-1.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'D2 coding';
+    font-style: normal;
+    font-weight: 400;
+    src: url('D2Coding.eot');
+    src: local('※'), local('D2Coding'),
+         url('D2Coding.eot?#iefix') format('embedded-opentype'),
+         url('D2Coding.woff2') format('x-woff2'),
+         url('D2Coding.woff') format('woff'),
+         url('D2Coding.ttf') format('truetype'),
+         url('D2Coding.svg') format('svg');
+  }
+@font-face {
+    font-family: 'D2 coding';
+    font-style: normal;
+    font-weight: 700;
+    src: url('d2codingbold.eot');
+    src: local('※'), local('D2Coding Bold'),
+            url('D2CodingBold.eot?#iefix') format('embedded-opentype'),
+            url('D2CodingBold.woff2') format('x-woff2'),
+            url('D2CodingBold.woff') format('woff'),
+            url('D2CodingBold.ttf') format('truetype'),
+            url('D2CodingBold.svg') format('svg');
+}

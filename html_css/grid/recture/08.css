@@ -2,16 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1em;
     color: #ffeead;
 }
 
 html, body {
-    box-sizing: border-box;
-    background-color: #ffeead;
-    height: 100%;
-    padding: 10px;
-    margin: 0px;
+  box-sizing: border-box;
+  background-color: #ffeead;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
 }
 
 .container > div:nth-child(1n) {
@@ -29,25 +29,35 @@ html, body {
 .container > div:nth-child(4n) {
     background-color: #ffcc5c;
 }
-
 .container {
     height: 100%; 
     display: grid;
     grid-gap: 3px;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 40px auto 40px; 
+    /* grid-template-columns: repeat(12, 1fr); */
+    grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
+   /*  grid-template-rows: 40px auto 40px; */
+    grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end];
 }
 
 .header {
-    grid-column: 1 / 3;
+/*     grid-column: 1 / -1; */
+    grid-column: main-start / main-end;
+    grid-row: main-start / content-start;
 }
 
-.menu {}
+.menu {
+   /* 삭제 */
+}
 
 .content {
-    grid-column: 2 / 3;
+/*     grid-column: 3 / -1; */
+    grid-column: content-start / content-end;
+    grid-row: content-start / content-end;
 }
 
 .footer {
-    grid-column: 1 / 3;
+  /*   grid-column: 1 / -1; */
+    grid-column:  main-start / main-end;
+    grid-row:  content-end / main-end;
 }
+

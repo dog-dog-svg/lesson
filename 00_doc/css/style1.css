@@ -1,0 +1,79 @@
+html{overflow-y:scroll;}
+.accordion1,.accordion2,.accordion3,.accordion4 {
+  background-color: #ffffff; margin-top:4px; 
+  color:#666666;font-weight:bold;
+  border: none; border-radius:4px;
+  text-align: left;
+  outline: none;
+  font-size: 12px;padding:4px;
+  transition: 0.4s; margin-left:1%;
+  box-shadow:0 1px 1px #999999;width:30%; cursor:pointer;
+}
+.cd-faq-content a{padding:4px;}
+.width33{width:31%;}
+.width33>.cd-faq-content{width:100%;}
+.img{width:100%;padding:0px;}
+.active,.accordion2:hover,.accordion3:hover,.accordion4:hover, {
+  background-color: #ccc; 
+}
+.border1px{border:1px solid #a2dcfb;}
+.fl{float:left;}
+.panel1, .panel2, .panel3, .panel4{
+  padding: 2%;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.cf:after{content:'';clear:both;display:block;}
+.cl{clear:left;}
+.portfolio .cd-faq-content a,.portfolio .before,.portfolio .after{margin:0;padding:4% 0;clear:both;line-height:2;}
+.portfolio .cd-faq-group > li{box-shadow:3px 2px 6px rgba(0,0,0,.5);}
+.portfolio .title04{padding-top:4%; font-weight:bold; color:#6c7d8e; font-size:0.8em;}
+.portfolio .cd-faq-trigger{padding:4%;}
+.portfolio .long-code{padding:4%; margin:1% 0;}
+.height300{max-height:300px; overflow:hidden;}
+.border{border-bottom:1px solid #a9c056;}
+.font-size-14px{font-size:14px;}
+.padding-left-4px{padding-left:4px;}
+.padding-left-8px{padding-left:8px;}
+.color-white{color:#ffffff;}
+.color-gray{color:#6c7d8e;}
+.color-red{color:#ff73b9;}
+.color-blue{color:#5badff;}
+.font-weight-bold{font-weight:bold;}
+.underline{text-decoration:underline;}
+.bg-blue{background-color:#aad4fd38;}
+.mgr20px{margin-right:20px;}
+.mgl20px{margin-left:20px;}
+.mgr1pro{margin-right:2%;margin-bottom:2%;}
+.cd-faq-trigger2{font-weight:bold;font-size:14px;color:#6c7d8e; border-bottom:1px solid #6c7d8e55;transition:all .1s;}
+.cd-faq-trigger2:hover{opacity:.5;}
+.cd-faq-trigger.cd-faq-trigger2{padding:2%;}
+header{position:relative;}
+.topNav{position:absolute; z-index:999;clear:left; top:70px; left:30%;}
+.topNav li{float:left; width:100px;}
+.topNav li a{color:#ffffff}
+.after:before,.before:before{content:' ▶ ';display:inline; font-size:8px;}
+.after.fn{float:none;display:block;margin-top:8px;}
+.underline:before{width:100%;height:1px;content:'';display:inline-block;background:#bbbbc788;margin:20px auto;}
+.etc:before{content:'※추가설명: ';font-weight:bold;display:inline; background-color:#6c7d8e; color:#fff;font-size:8px;}
+.etc_ex:before{content:'※추가예제';font-weight:bold;font-size:8px;}
+.etc{font-size:0.8rem; color:#6c7d8e;line-height:1; }
+.title01{background:#bbbbc7;color:#fff;line-height:2;padding:8px 0 7px 8px;}
+.content{padding-left:8px;}
+.after{float:left; margin-left:14px;}
+.table{border:1px solid #bbbbc7; border-collapse:collapse;}
+tr{border-top:1px solid #bbbbc7; }
+td{padding:4px;border-left:1px solid #bbbbc7; line-height:1.5;}
+tr{border-bottom:1px solid #bbbbc7; border-right:1px solid #bbbbc7;}
+iframe.panel1,iframe.panel2,iframe.panel3{width:100%; min-height:500px;}
+.before{color:#aad4fd !important; float:left; margin-left:20px;}
+.before.cb{float:none; }
+.display-block{display:block;}
+
+@media screen and (max-width:768px) {
+      .topNav{display:none;}  
+	  header{display:none;}
+
+
+}

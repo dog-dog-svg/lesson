@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* CSS3 텍스트 수업 페이지 */
+.editor-template p#lecture_css3_text:hover { overflow: visible !important; }
+
+/* CSS3 Transition 수업 페이지 */
+.editor-template div#lecture_css3_transition {
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	-webkit-transition: width 2s, height 2s;
+	transition: width 2s, height 2s;
+}
+.editor-template div#lecture_css3_transition:hover {
+	width: 180px;
+	height: 180px;
+}
+
+/* CSS3 Animation 수업 페이지 */
+.editor-template div#lecture_css3_animation {
+	width: 80px;
+	height: 58px;
+	-webkit-animation: movingBunny 1.5s;
+	animation: movingBunny 1.5s;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-timing-function: ease-out;
+	animation-timing-function: ease-out;
+}
+.editor-template div#lecture_css3_animation:hover {
+	-webkit-animation-name: pulseBunny;
+	animation-name: pulseBunny;
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+@keyframes movingBunny {
+  0% {
+    -webkit-transform: translate3d(780px, 0, 0) skewX(30deg);
+    transform: translate3d(780px, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: skewX(5deg);
+    transform: skewX(5deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes pulseBunny {
+  0% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+/* 예제 코드 하이라이트 */
+pre {
+    overflow-x: hidden;
+}

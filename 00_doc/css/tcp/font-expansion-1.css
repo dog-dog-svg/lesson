@@ -1,0 +1,84 @@
+﻿@font-face {
+ font-family:'NanumSquare';
+ font-style:normal;
+ font-weight:400;
+ src:url(font/NanumSquareR-2.eot);
+ src:url(font/NanumSquareR-3.eot) format('embedded-opentype'),
+      url(font/NanumSquareR-1.woff) format('woff'),
+	  url(font/NanumSquareR-1.woff2) format('woff2'),
+      url(font/NanumSquareR-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'NanumSquare';
+ font-style:bold;
+ font-weight:700;
+ src:url(font/NanumSquareB-2.eot);
+ src:url(font/NanumSquareB-3.eot) format('embedded-opentype'),
+      url(font/NanumSquareB-1.woff) format('woff'),
+	  url(font/NanumSquareB-1.woff2) format('woff2'),
+      url(font/NanumSquareB-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'NanumSquare';
+ font-style:bold;
+ font-weight:800;
+ src:url(font/NanumSquareEB-2.eot);
+ src:url(font/NanumSquareEB-3.eot) format('embedded-opentype'),
+      url(font/NanumSquareEB-1.woff) format('woff'),
+	  url(font/NanumSquareEB-1.woff2) format('woff2'),
+      url(font/NanumSquareEB-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'NanumMyeongjo';
+ font-style:normal;
+ font-weight:400;
+ src:url(font/NanumMyeongjo-2.eot);
+ src:url(font/NanumMyeongjo-3.eot) format('embedded-opentype'),
+      url(font/NanumMyeongjo-1.woff) format('woff'),
+	  url(font/NanumMyeongjo-1.woff2) format('woff2'),
+      url(font/NanumMyeongjo-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'NanumMyeongjo';
+ font-style:bold;
+ font-weight:700;
+ src:url(font/NanumMyeongjoBold-2.eot);
+ src:url(font/NanumMyeongjoBold-3.eot) format('embedded-opentype'),
+      url(font/NanumMyeongjoBold-1.woff) format('woff'),
+	  url(font/NanumMyeongjoBold-1.woff2) format('woff2'),
+      url(font/NanumMyeongjoBold-1.ttf) format('truetype');
+}
+@font-face {
+ font-family:'NanumMyeongjo';
+ font-style:bold;
+ font-weight:800;
+ src:url(font/NanumMyeongjoExtraBold-2.eot);
+ src:url(font/NanumMyeongjoExtraBold-3.eot) format('embedded-opentype'),
+      url(font/NanumMyeongjoExtraBold-1.woff) format('woff'),
+	  url(font/NanumMyeongjoExtraBold-1.woff2) format('woff2'),
+      url(font/NanumMyeongjoExtraBold-1.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'D2 coding';
+    font-style: normal;
+    font-weight: 400;
+    src: url('D2Coding.eot');
+    src: local('※'), local('D2Coding'),
+         url('D2Coding.eot?#iefix') format('embedded-opentype'),
+         url('D2Coding.woff2') format('x-woff2'),
+         url('D2Coding.woff') format('woff'),
+         url('D2Coding.ttf') format('truetype'),
+         url('D2Coding.svg') format('svg');
+  }
+@font-face {
+    font-family: 'D2 coding';
+    font-style: normal;
+    font-weight: 700;
+    src: url('d2codingbold.eot');
+    src: local('※'), local('D2Coding Bold'),
+            url('D2CodingBold.eot?#iefix') format('embedded-opentype'),
+            url('D2CodingBold.woff2') format('x-woff2'),
+            url('D2CodingBold.woff') format('woff'),
+            url('D2CodingBold.ttf') format('truetype'),
+            url('D2CodingBold.svg') format('svg');
+}
